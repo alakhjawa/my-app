@@ -8,7 +8,7 @@ const App = () => {
   const [visits, setVisits] = useState(0);
 
   useEffect(() => {
-    setVisits((prevVisits) => prevVisits + 1);
+    setVisits((visits) => visits + 1);
   }, []);
 
   return (
